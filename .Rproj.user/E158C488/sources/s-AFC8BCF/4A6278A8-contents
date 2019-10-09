@@ -11,3 +11,9 @@ navbar:
       href: information.html
     - text: "徵尋夥伴"
       href: partner.html
+    - tect: "參考作品"
+      href: reference.html
+    - tect: "臉書粉專"
+      href: https://www.facebook.com/資料科學應用創新黑客松競賽-2329576390451183/?__tn__=k*F&tn-str=k*F
+    - tect: "歷屆得獎名單"
+      href: history.html
