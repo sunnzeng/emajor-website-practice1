@@ -5,21 +5,21 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1487118461",
+    "hash" : "0",
     "id" : "DB1C99F5",
-    "lastKnownWriteTime" : 1570631604,
-    "last_content_update" : 1570631604216,
+    "lastKnownWriteTime" : 1570631768,
+    "last_content_update" : 1570631768959,
     "path" : "~/GitHub/emajor-website-practice1/partner.Rmd",
     "project_path" : "partner.Rmd",
     "properties" : {
-        "cursorPosition" : "1,0",
+        "cursorPosition" : "1,12",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 6,
+    "relative_order" : 5,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"

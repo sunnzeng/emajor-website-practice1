@@ -4,5 +4,10 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
+  right:
+    - text: "競賽說明"
       href: about.html
+    - text: "報名資訊"
+      href: information.html
+    - text: "徵尋夥伴"
+      href: partner.html
