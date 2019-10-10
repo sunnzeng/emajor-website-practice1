@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3602973738",
+    "hash" : "0",
     "id" : "4A6278A8",
-    "lastKnownWriteTime" : 1570680448,
-    "last_content_update" : 1570680448882,
+    "lastKnownWriteTime" : 1570681223,
+    "last_content_update" : 1570681223306,
     "path" : "~/GitHub/emajor-website-practice1/_site.yml",
     "project_path" : "_site.yml",
     "properties" : {
         "cursorPosition" : "32,15",
-        "scrollLine" : "14"
+        "scrollLine" : "15"
     },
     "read_only" : false,
     "read_only_alternatives" : [

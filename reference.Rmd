@@ -4,20 +4,20 @@ type: inverse
 ---
 </br>
 《參考資料》<br><br>
-◎ 政府資料開放平臺。
+◎ <a href=https://data.gov.tw>政府資料開放平臺</a>。
 
-◎ 臺北市政府資料開放平臺。
+◎ <a href=https://data.taipei/#/>臺北市政府資料開放平臺</a>。
 
-◎ 新北市政府資料開放平臺。
+◎ <a href=https://data.ntpc.gov.tw>新北市政府資料開放平臺</a>。
 
 </br></br>
 《作品範例》<br><br>
-◎ PM2.5全台即時概況。
+◎ <a href=https://env.healthinfo.tw/air/>PM2.5全台即時概況</a>。
 
-◎ Google 台灣災害應變資訊平臺。
+◎ <a href=https://data.gov.tw/node/8170>Google 台灣災害應變資訊平臺</a>。
 
-◎ 台灣水庫即時水情。
+◎ <a href=https://water.taiwanstat.com/>台灣水庫即時水情</a>。
 
-◎ 溫室氣體清冊：台灣。
+◎ <a href=http://muyueh.com/30/co2/show.html>溫室氣體清冊：台灣</a>。
 
-  ※更多作品範例可從政府資料開放平臺中的活化應用專區觀看瞭解。※
+  ※更多作品範例可從政府資料開放平臺中的<a href=https://data.gov.tw/applications>活化應用專區</a>觀看瞭解。※
