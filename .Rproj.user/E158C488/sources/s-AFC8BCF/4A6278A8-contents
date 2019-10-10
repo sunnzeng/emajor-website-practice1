@@ -1,20 +1,27 @@
 name: "My Website"
 navbar:
   title: "資料科學應用創新黑客松競賽"
-  type: _navbar.Rmd
+  type: inverse
   left: 
     - text: "Home"
+      icon: fa-home
       href: index.html
   right:
     - text: "競賽說明"
+      icon: fa-info-circle
       href: about.html
     - text: "報名資訊"
+      icon: fa-file-alt
       href: information.html
     - text: "徵尋夥伴"
+      icon: fa-user-friends
       href: partner.html
     - text: "參考作品"
+      icon: fa-file-download
       href: reference.html
     - text: "臉書粉專"
+      icon: fa-question-circle
       href: https://www.facebook.com/資料科學應用創新黑客松競賽-2329576390451183/?__tn__=k*F&tn-str=k*F
     - text: "歷屆得獎名單"
+      icon: fa-list-alt
       href: history.html

@@ -7,18 +7,18 @@
     "folds" : "",
     "hash" : "0",
     "id" : "117D2E13",
-    "lastKnownWriteTime" : 1570634586,
-    "last_content_update" : 1570634586490,
+    "lastKnownWriteTime" : 1570678897,
+    "last_content_update" : 1570678897057,
     "path" : "~/GitHub/emajor-website-practice1/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "1,18",
+        "cursorPosition" : "3,0",
         "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_markdown"
