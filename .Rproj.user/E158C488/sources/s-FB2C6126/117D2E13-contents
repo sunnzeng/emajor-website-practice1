@@ -24,7 +24,7 @@ knitr::include_graphics("https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/4889927
 </form>
 
 <script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxJ2ukW-hM4IN3JJXQmRqNBA4hIQ8smRQAK_yjOylcIXaIR-UQA/exec'
+  const scriptURL = https://script.google.com/macros/s/AKfycbxJ2ukW-hM4IN3JJXQmRqNBA4hIQ8smRQAK_yjOylcIXaIR-UQA/exec
   const form = document.forms['submit-to-google-sheet']
 
   form.addEventListener('submit', e => {
