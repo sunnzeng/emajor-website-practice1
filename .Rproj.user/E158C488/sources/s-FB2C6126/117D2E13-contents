@@ -9,6 +9,4 @@ knitr::include_graphics("https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/4889927
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v4.0"></script>
-
 <div class="fb-share-button" data-href="https://sunnzeng.github.io/emajor-website-practice1/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsunnzeng.github.io%2Femajor-website-practice1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a></div>
-
