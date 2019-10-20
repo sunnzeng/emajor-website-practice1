@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1941504953",
     "id" : "117D2E13",
-    "lastKnownWriteTime" : 1571549081,
-    "last_content_update" : 1571549081294,
+    "lastKnownWriteTime" : 1571549783,
+    "last_content_update" : 1571549783068,
     "path" : "~/GitHub/emajor-website-practice1/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "23,37",
+        "cursorPosition" : "20,72",
         "scrollLine" : "13"
     },
     "read_only" : false,
