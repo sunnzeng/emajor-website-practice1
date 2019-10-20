@@ -7,10 +7,6 @@ title: "資料科學應用創新黑客松競賽"
 knitr::include_graphics("https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/48899273_2360104464065042_6969129318786007040_n.png?_nc_cat=105&_nc_oc=AQlY9R1AjW1SruSe_4Df6AFwXduChj3qQLdpai9KB2j6_gm2S57r9JBIuQQbZ4CMD4s&_nc_ht=scontent.ftpe3-2.fna&oh=946f34c23fcbd58936f8978afd32911e&oe=5E1AE63D")
 ```
 
-<br>
-<div class="line-it-button" data-lang="zh_Hant" data-type="share-a" data-ver="3" data-url="https://sunnzeng.github.io/emajor-website-practice1/index.html" data-color="default" data-size="small" data-count="false" style="display: none;"></div>
- <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
- 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v4.0"></script>
 
