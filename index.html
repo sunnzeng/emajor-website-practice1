@@ -339,6 +339,46 @@ $(document).ready(function () {
 
 
 <p><img src="https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/48899273_2360104464065042_6969129318786007040_n.png?_nc_cat=105&_nc_oc=AQlY9R1AjW1SruSe_4Df6AFwXduChj3qQLdpai9KB2j6_gm2S57r9JBIuQQbZ4CMD4s&_nc_ht=scontent.ftpe3-2.fna&oh=946f34c23fcbd58936f8978afd32911e&oe=5E1AE63D" width="100%" /></p>
+<div id="fb-root">
+
+</div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v4.0"></script>
+<div class="fb-share-button" data-href="https://sunnzeng.github.io/emajor-website-practice1/" data-layout="button" data-size="small">
+<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsunnzeng.github.io%2Femajor-website-practice1%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">分享</a>
+</div>
+<div class="line-it-button" data-lang="zh_Hant" data-type="share-a" data-ver="3" data-url="https://sunnzeng.github.io/emajor-website-practice1/index.html" data-color="default" data-size="small" data-count="false" style="display: none;">
+
+</div>
+<script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+<p><br></p>
+<form name="submit-to-google-sheet">
+<input name="email" type="email" placeholder="訂閱最新消息請留email" required> <button type="submit">Send</button>
+</form>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxWGiHYUHpvSMQxOdpKidNS_nCqp33IqIVUJ8gnmByqYswhCas/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<form name="submit-to-google-sheet">
+<input name="email" type="email" placeholder="訂閱最新消息請留email" required> <button type="submit">Send</button>
+</form>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxWGiHYUHpvSMQxOdpKidNS_nCqp33IqIVUJ8gnmByqYswhCas/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 
 
 
