@@ -341,15 +341,14 @@ $(document).ready(function () {
 </div>
 
 
-<!-- html_preserve -->
 <form name="submit-to-google-sheet">
 <div class="form-group">
 <pre><code>&lt;label for=&quot;exampleFormControlInput1&quot;&gt;Email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;email&quot; id=&quot;exampleFormControlInput1&quot; placeholder=&quot;name@example.com&quot;&gt;</code></pre>
+&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;email&quot; id=&quot;exampleFormControlInput1&quot; placeholder=&quot;輸入email&quot;&gt;</code></pre>
 </div>
 <div class="form-group">
 <pre><code>&lt;label for=&quot;exampleFormControlSelect1&quot;&gt;Example select&lt;/label&gt;
-&lt;select class=&quot;form-control&quot; id=&quot;exampleFormControlSelect1&quot; name=&quot;select1&quot;&gt;
+&lt;select class=&quot;form-control&quot; name=&quot;select1&quot; id=&quot;exampleFormControlSelect1&quot;&gt;
   &lt;option&gt;1&lt;/option&gt;
   &lt;option&gt;2&lt;/option&gt;
   &lt;option&gt;3&lt;/option&gt;
@@ -359,7 +358,7 @@ $(document).ready(function () {
 </div>
 <div class="form-group">
 <pre><code>&lt;label for=&quot;exampleFormControlSelect2&quot;&gt;Example multiple select&lt;/label&gt;
-&lt;select multiple class=&quot;form-control&quot; id=&quot;exampleFormControlSelect2&quot; name=&quot;select2&quot;&gt;
+&lt;select multiple class=&quot;form-control&quot; name=&quot;select2&quot; id=&quot;exampleFormControlSelect2&quot;&gt;
   &lt;option&gt;1&lt;/option&gt;
   &lt;option&gt;2&lt;/option&gt;
   &lt;option&gt;3&lt;/option&gt;
@@ -369,11 +368,8 @@ $(document).ready(function () {
 </div>
 <div class="form-group">
 <pre><code>&lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Example textarea&lt;/label&gt;
-&lt;textarea class=&quot;form-control&quot; id=&quot;exampleFormControlTextarea1&quot; name=&quot;text1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;</code></pre>
+&lt;textarea class=&quot;form-control&quot; name=&quot;text1&quot; id=&quot;exampleFormControlTextarea1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;</code></pre>
 </div>
-<button type="submit">
-Send
-</button>
 </form>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbySCCy4_8CwCGrZ9YswdM0JdcO-VIa0Vn8fWtJcYeyl4nBgsHDY/exec'
@@ -386,7 +382,6 @@ Send
       .catch(error => console.error('Error!', error.message))
   })
 </script>
-<!--/html_preserce-->
 
 
 
