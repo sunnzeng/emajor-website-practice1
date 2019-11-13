@@ -12,7 +12,7 @@
 
 
 
-<title>footer.Rmd</title>
+<title>自製表單</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -336,14 +336,57 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">footer.Rmd</h1>
+<h1 class="title toc-ignore">自製表單</h1>
 
 </div>
 
 
-<p>
-Copyright © 2016 Skynet, Inc. All rights reserved.
-</p>
+<!-- html_preserve -->
+<form name="submit-to-google-sheet">
+<div class="form-group">
+<pre><code>&lt;label for=&quot;exampleFormControlInput1&quot;&gt;Email address&lt;/label&gt;
+&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;email&quot; id=&quot;exampleFormControlInput1&quot; placeholder=&quot;name@example.com&quot;&gt;</code></pre>
+</div>
+<div class="form-group">
+<pre><code>&lt;label for=&quot;exampleFormControlSelect1&quot;&gt;Example select&lt;/label&gt;
+&lt;select class=&quot;form-control&quot; id=&quot;exampleFormControlSelect1&quot; name=&quot;select1&quot;&gt;
+  &lt;option&gt;1&lt;/option&gt;
+  &lt;option&gt;2&lt;/option&gt;
+  &lt;option&gt;3&lt;/option&gt;
+  &lt;option&gt;4&lt;/option&gt;
+  &lt;option&gt;5&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+</div>
+<div class="form-group">
+<pre><code>&lt;label for=&quot;exampleFormControlSelect2&quot;&gt;Example multiple select&lt;/label&gt;
+&lt;select multiple class=&quot;form-control&quot; id=&quot;exampleFormControlSelect2&quot; name=&quot;select2&quot;&gt;
+  &lt;option&gt;1&lt;/option&gt;
+  &lt;option&gt;2&lt;/option&gt;
+  &lt;option&gt;3&lt;/option&gt;
+  &lt;option&gt;4&lt;/option&gt;
+  &lt;option&gt;5&lt;/option&gt;
+&lt;/select&gt;</code></pre>
+</div>
+<div class="form-group">
+<pre><code>&lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Example textarea&lt;/label&gt;
+&lt;textarea class=&quot;form-control&quot; id=&quot;exampleFormControlTextarea1&quot; name=&quot;text1&quot; rows=&quot;3&quot;&gt;&lt;/textarea&gt;</code></pre>
+</div>
+<button type="submit">
+Send
+</button>
+</form>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbySCCy4_8CwCGrZ9YswdM0JdcO-VIa0Vn8fWtJcYeyl4nBgsHDY/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<!--/html_preserce-->
 
 
 

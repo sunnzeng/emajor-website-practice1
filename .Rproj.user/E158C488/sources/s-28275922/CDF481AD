@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573616474718.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CDF481AD",
+    "lastKnownWriteTime" : 1573617285,
+    "last_content_update" : 1573617285907,
+    "path" : "~/GitHub/emajor-website-practice1/form.Rmd",
+    "project_path" : "form.Rmd",
+    "properties" : {
+        "cursorPosition" : "35,2",
+        "scrollLine" : "34",
+        "source_window_id" : "",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

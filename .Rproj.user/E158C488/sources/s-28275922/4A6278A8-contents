@@ -25,6 +25,8 @@ navbar:
     - text: "歷屆得獎名單"
       icon: fa-list-alt
       href: history.html
+    - text: "表單"
+      href: form.html
       
 output:
   html_document:

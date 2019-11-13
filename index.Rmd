@@ -17,8 +17,10 @@ knitr::include_graphics("https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/4889927
  
 <br>
 
-
+<!-- 以下是之前的google sheets 碼 -->
 <form name="submit-to-google-sheet">
+  <div class="form-group">
+  <label for="email">Email address</label>
   <input name="email" type="email" placeholder="訂閱最新消息請留email" required>
   <button type="submit">Send</button>
 </form>
@@ -34,5 +36,6 @@ knitr::include_graphics("https://scontent.ftpe3-2.fna.fbcdn.net/v/t1.0-9/4889927
       .catch(error => console.error('Error!', error.message))
   })
 </script>
+<!-- end -->
 
 

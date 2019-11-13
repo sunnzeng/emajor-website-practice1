@@ -1,20 +1,19 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1570631528102.000,
+    "created" : 1570629478001.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
-    "id" : "CC1B4020",
-    "lastKnownWriteTime" : 1570679556,
-    "last_content_update" : 1570679556465,
-    "path" : "~/GitHub/emajor-website-practice1/information.Rmd",
-    "project_path" : "information.Rmd",
+    "hash" : "3991012569",
+    "id" : "E9DB935A",
+    "lastKnownWriteTime" : 1570679546,
+    "last_content_update" : 1570679546665,
+    "path" : "~/GitHub/emajor-website-practice1/about.Rmd",
+    "project_path" : "about.Rmd",
     "properties" : {
         "cursorPosition" : "5,14",
-        "scrollLine" : "0",
-        "tempName" : "Untitled1"
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
