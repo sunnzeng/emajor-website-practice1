@@ -341,14 +341,12 @@ $(document).ready(function () {
 </div>
 
 
-<form name="submit-to-google-sheet">
+<form name='submit-to-google-sheet'>
 <div class="form-group">
-<pre><code>&lt;label for=&quot;exampleFormControlInput1&quot;&gt;Email address&lt;/label&gt;
-&lt;input type=&quot;email&quot; class=&quot;form-control&quot; name=&quot;email&quot; id=&quot;exampleFormControlInput1&quot; placeholder=&quot;name@example.com&quot;&gt;</code></pre>
-</div>
+<p><label for="xampleFormControlInput1">Email address</label> <input name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required></p>
 <div class="form-group">
-<pre><code>&lt;label for=&quot;exampleFormControlSelect1&quot;&gt;Example select&lt;/label&gt;
-&lt;select class=&quot;form-control&quot; id=&quot;exampleFormControlSelect1&quot;  name=&quot;select1&quot; size=&quot;4&quot; multiple&gt;
+<pre><code>&lt;label for=&quot;select1&quot;&gt;Example select&lt;/label&gt;
+&lt;select name=&quot;select1&quot; required&gt;
   &lt;option&gt;1&lt;/option&gt;
   &lt;option&gt;2&lt;/option&gt;
   &lt;option&gt;3&lt;/option&gt;
@@ -365,14 +363,10 @@ $(document).ready(function () {
   &lt;option&gt;4&lt;/option&gt;
   &lt;option&gt;5&lt;/option&gt;
 &lt;/select&gt;</code></pre>
-</div>
 <div class="form-group">
 <pre><code>&lt;label for=&quot;exampleFormControlTextarea1&quot;&gt;Example textarea&lt;/label&gt;
 &lt;textarea class=&quot;form-control&quot; id=&quot;exampleFormControlTextarea1&quot; rows=&quot;3&quot; name=&quot;text1&quot;&gt;&lt;/textarea&gt;</code></pre>
-</div>
-<button type="submit">
-Send
-</button>
+<button type="submit">Send</button>
 </form>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbySCCy4_8CwCGrZ9YswdM0JdcO-VIa0Vn8fWtJcYeyl4nBgsHDY/exec'
